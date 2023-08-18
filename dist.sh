@@ -26,9 +26,9 @@ NEW_VERSION="$MAJOR.$MINOR.$PATCH"
 
 # 替换版本号
 sed -i "s/^version = \"$VERSION\"/version = \"$NEW_VERSION\"/" Cargo.toml
-./clippy.sh
 git add -u
 git commit -m "v$NEW_VERSION"
+./clippy.sh
 git pull
 git push
 cargo publish
