@@ -5,9 +5,10 @@ edition = "2021"
 license = "BSL-1.0"
 homepage = "https://github.com/xxai-art/sts"
 repository = "https://github.com/xxai-art/sts"
-description = ""
+description = "shortcut for timestamp"
 
 [dependencies]
+coarsetime = "0.1.23"
 
 [dev-dependencies]
 
