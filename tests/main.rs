@@ -1,2 +1,7 @@
+use sts::{ms, sec};
+
 #[test]
-fn main() {}
+fn main() {
+  dbg!(sec());
+  dbg!(ms());
+}

@@ -4,6 +4,8 @@ DIR=$(realpath $0) && DIR=${DIR%/*}
 cd $DIR
 set -ex
 
+./run.sh 2>out.txt
+
 mdi
 # 提取版本号行
 VERSION_LINE=$(grep "^version" Cargo.toml)
