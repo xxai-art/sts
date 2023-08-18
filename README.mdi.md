@@ -1,0 +1,3 @@
+# sts
+
+> ./tests/main.rs
